@@ -1,0 +1,125 @@
+.nav-link{
+    color: #FFCDEA;
+}
+.nav-link:hover{
+    color: #FFDA76;
+}
+.aktiflink {
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: #FFDA76;
+}
+body{
+    background-image: url('/arkaplan.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; /* Görüntüyü tüm ekran yüksekliğine yayar */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #FFDA76; /* Sarı renk */
+    text-decoration: underline;
+}
+.icerik{
+    opacity: 0.9;
+    border: 2px solid #BC7FCD;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+#resim{
+    border-radius: 20px;
+}
+.ana_baslik{
+    color: #86469C;
+    font-weight: bolder;
+    font-size: 80px;
+}
+#hosgeldiniz{
+    color: #BC7FCD;
+}
+footer{
+    background-color: #86469C;
+    color: white;
+}
+.btn:hover{
+    background-color: #FFDA76 ;
+}
+
+.btnlar{
+    background-color: #86469C;
+    border: 2px solid #FFCDEA;
+    color: white;
+}
+
+.btnlar:hover{
+    border: 2px solid #FFDA76;
+        color: #FFDA76;
+}
+
+/* Timeline styles */
+
+.timeline {
+    position: relative;
+    max-width: 3800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background-color: #86469C;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  }
+
+  .timeline-item {
+    border: 1px solid #86469C;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px; /* reduced height */
+  }
+  
+
+  /*footer kısmı */
+ 
+  footer {
+    background-color: #86469C;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+  
+  
+  
+  
+  
