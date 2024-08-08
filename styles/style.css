@@ -18,14 +18,18 @@
     color: #FFDA76;
 }
 
-body {
-    background-image: url(/resimler/arkaplan.jpg);
+#arkaplan {
+    z-index: -1;
+    height: 1080px;
+    width: 1280px;
+    padding: 0;
     background-size: cover;
+    /* Resmi ekranı kaplayacak şekilde yeniden boyutlandırır */
     background-position: center;
+    /* Resmi ekranın ortasına yerleştirir */
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    /* Görüntüyü tüm ekran yüksekliğine yayar */
+    position: absolute;
+
 }
 
 footer a {
@@ -40,6 +44,7 @@ footer a:hover {
 }
 
 .icerik {
+    z-index: 1;
     opacity: 0.9;
     border: 2px solid #BC7FCD;
     padding: 20px;
